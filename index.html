@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -39,10 +41,13 @@
         <section class="hero">
             <div class="container hero__container">
                 <p class="hero__description">
-                    Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и
-                    позволяют выделиться на фоне конкурентов
+                    Разрабатываю имиджевые сайты для малого и&nbsp;среднего бизнеса, которые повышают престиж компании и
+                    позволяют выделиться на&nbsp;фоне конкурентов
                 </p>
-                <h1 class="hero__title">Привет, я Павел — фронтенд разработчик и дизайнер сайтов</h1>
+                <h1 class="hero__title">
+                    <span class="hero__title--main">Павел Платонов</span><br>
+                    <span class="hero__title--sub">Фронтенд-разработчик</span>
+                </h1>
             </div>
         </section>
         <section class="portfolio" id="portfolio">
@@ -50,25 +55,31 @@
                 <h2 class="portfolio__heading">Самые свежие проекты</h2>
                 <ul class="portfolio__list">
                     <li class="portfolio__item">
-                        <img class="portfolio__image" src="resources/project-1.png" alt="Фото сайта Realhome">
-                        <div class="portfolio__content">
-                            <h3 class="portfolio__item-title">Realhome</h3>
-                            <p class="portfolio__item-description">дизайн, верстка, настройка</p>
-                        </div>
+                        <a href="https://paleptonov.github.io/metpuka/" class="portfolio__link" target="_blank">
+                            <img class="portfolio__image" src="resources/project-1.jpg" alt="Фото сайта Realhome">
+                            <div class="portfolio__content">
+                                <h3 class="portfolio__item-title">МЕТРИКА</h3>
+                                <p class="portfolio__item-description">верстка, pixel perfect</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="portfolio__item">
-                        <img class="portfolio__image" src="resources/project-2.png" alt="Фото сайта GLASS">
-                        <div class="portfolio__content">
-                            <h3 class="portfolio__item-title">GLASS</h3>
-                            <p class="portfolio__item-description">разработка интерфейса</p>
-                        </div>
+                        <a href="#" class="portfolio__link">
+                            <img class="portfolio__image" src="resources/project-2.png" alt="Фото сайта GLASS">
+                            <div class="portfolio__content">
+                                <h3 class="portfolio__item-title">GLASS</h3>
+                                <p class="portfolio__item-description">разработка интерфейса</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="portfolio__item">
-                        <img class="portfolio__image" src="resources/project-3.png" alt="Фото сайта Fesiyen">
-                        <div class="portfolio__content">
-                            <h3 class="portfolio__item-title">Fesiyen</h3>
-                            <p class="portfolio__item-description">разработка интерфейса</p>
-                        </div>
+                        <a href="#" class="portfolio__link">
+                            <img class="portfolio__image" src="resources/project-3.png" alt="Фото сайта Fesiyen">
+                            <div class="portfolio__content">
+                                <h3 class="portfolio__item-title">Fesiyen</h3>
+                                <p class="portfolio__item-description">разработка интерфейса</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
                 <a href="#" class="btn portfolio__btn">Смотреть все проекты</a>
@@ -81,34 +92,42 @@
                     <li class="competence__item competence__item--html">
                         <h3 class="competence__title">HTML и CSS</h3>
                         <p class="competence__description">
-                            это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы,
-                            а также применять стили к этим документам на CSS, является обязательным навыком для каждого
+                            это основа фронтенд разработки. Умение создавать и&nbsp;правильно структурировать
+                            HTML-документы,
+                            а&nbsp;также применять стили к&nbsp;этим документам на&nbsp;CSS, является обязательным
+                            навыком для каждого
                             фронтенд разработчика.
                         </p>
                     </li>
                     <li class="competence__item competence__item--js">
                         <h3 class="competence__title">JavaScript</h3>
                         <p class="competence__description">
-                            это язык программирования, который используется для создания динамического и интерактивного
-                            пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами
-                            JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на
+                            это язык программирования, который используется для создания динамического
+                            и&nbsp;интерактивного
+                            пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком
+                            с&nbsp;основами
+                            JavaScript, включая работу с&nbsp;DOM-деревом, асинхронными запросами и&nbsp;манипуляцией
+                            данными на
                             стороне клиента.
                         </p>
                     </li>
                     <li class="competence__item competence__item--react">
                         <h3 class="competence__title">Работа с библиотеками и фреймворками</h3>
                         <p class="competence__description">
-                            фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими
-                            как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под
-                            нужды проекта и расширять их функциональность, является очень важным навыком.
+                            фронтенд разработчики должны быть знакомы с&nbsp;различными библиотеками
+                            и&nbsp;фреймворками, такими
+                            как React, Angular, Vue и&nbsp;другими. Умение использовать готовые решения, адаптировать
+                            их&nbsp;под
+                            нужды проекта и&nbsp;расширять их&nbsp;функциональность, является очень важным навыком.
                         </p>
                     </li>
                     <li class="competence__item competence__item--mobile">
-                        <h3 class="competence__title">Разработка для мобильных<br> устройств и адаптивная верстка</h3>
+                        <h3 class="competence__title">Разработка для мобильных устройств и&nbsp;адаптивная верстка</h3>
                         <p class="competence__description">
-                            фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими
-                            как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под
-                            нужды проекта и расширять их функциональность, является очень важным навыком.
+                            пользователь заходит с&nbsp;телефона? Его опыт должен быть безупречным.
+                            Я&nbsp;специализируюсь на&nbsp;создании интерфейсов, которые не&nbsp;просто
+                            &laquo;подстраиваются&raquo; под маленький экран, а&nbsp;изначально проектируются для
+                            мобильных, обеспечивая скорость, удобство и&nbsp;вовлеченность.
                         </p>
                     </li>
                 </ul>
@@ -123,9 +142,10 @@
                         <div class="services__content">
                             <h3 class="services__title">Разработка сайта под ключ</h3>
                             <p class="services__description">
-                                Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения
+                                Это создание дизайн веб-сайтов, созданный для удобства пользователя и&nbsp;решения
                                 бизнес-задач
-                                Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь
+                                Сайты должны быть понятными и&nbsp;удобными, ведь чем понятнее сайт, тем быстрее
+                                пользователь
                                 совершит целевое действие
                             </p>
                         </div>
@@ -135,9 +155,9 @@
                         <div class="services__content">
                             <h3 class="services__title">Верстка сайтов</h3>
                             <p class="services__description">
-                                Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд
-                                разработчик
-                                может помочь создать привлекательный и удобный интерфейс для вашего сайта
+                                Это процесс создания HTML-документов и&nbsp;применения к&nbsp;ним стилей на&nbsp;CSS.
+                                Фронтенд разработчик
+                                может помочь создать привлекательный и&nbsp;удобный интерфейс для вашего сайта
                             </p>
                         </div>
                     </li>
@@ -146,9 +166,10 @@
                         <div class="services__content">
                             <h3 class="services__title">Разработка мобильного интерфейса</h3>
                             <p class="services__description">
-                                Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд
-                                разработчик может помочь создать динамический и удобный пользовательский интерфейс для
-                                вашего сайта или приложения.
+                                Это процесс создания интерактивных элементов на&nbsp;странице с&nbsp;помощью JavaScript.
+                                Фронтенд разработчик может помочь создать динамический и&nbsp;удобный пользовательский
+                                интерфейс
+                                для вашего сайта или приложения.
                             </p>
                         </div>
                     </li>
@@ -173,6 +194,5 @@
         </div>
     </footer>
 </body>
-
 
 </html>
