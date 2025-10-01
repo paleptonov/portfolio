@@ -6,7 +6,7 @@ html {
     --bg-color: #000000;
     --text-color: #ffffff;
     --dark-color: #191c19;
-    --accent-color: #1bff07;
+    --accent-color: #00AA66;
 }
 
 body {
@@ -102,7 +102,7 @@ section {
     position: relative;
     height: 80vh;
     min-height: 600px;
-    background-image: url(./resources/hero.jpg);
+    background-image: url(./resources/hero.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -118,10 +118,10 @@ section {
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg,
-            var(--bg-color) 10%,
-            transparent 15%,
-            transparent 85%,
-            var(--bg-color) 90%);
+            var(--bg-color) 0,
+            transparent 10%,
+            transparent 90%,
+            var(--bg-color) 100%);
     z-index: 1;
 }
 
@@ -139,11 +139,23 @@ section {
 }
 
 .hero__title {
-    margin-bottom: 90px;
-    max-width: 920px;
+    margin-bottom: 50px;
     font-size: 80px;
+    font-weight: 500;
     line-height: 70px;
     color: var(--accent-color);
+}
+
+.hero__title--main {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero__title--sub {
+    font-size: 52px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 /* portfolio */
@@ -166,7 +178,7 @@ section {
     width: 100%;
     height: 550px;
     object-fit: cover;
-    display: block;
+    object-position: top;
     transition: transform 0.3s ease;
 }
 
